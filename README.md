@@ -1,16 +1,16 @@
 #BÀI TẬP LỚN MÔN TRÍ TUỆ NHÂN TẠO & HỌC MÁY
 
-🛠 Hướng dẫn cài đặt
-1. Yêu cầu hệ thống
+**🛠 Hướng dẫn cài đặt**
+**1. Yêu cầu hệ thống**
 Python 3.9 trở lên.
 
 Đã cài đặt môi trường ảo (Virtual Environment).
 
-2. Cài đặt thư viện
+**2. Cài đặt thư viện**
 Mở Terminal tại thư mục dự án và chạy lệnh sau để cài đặt các thư viện cần thiết:
 pip install tensorflow flask streamlit pillow numpy requests
 
-🚀 Cách chạy chương trình
+**🚀 Cách chạy chương trình**
 Để khởi chạy ứng dụng, bạn cần vận hành song song cả Backend và Frontend theo thứ tự sau:
 
 Bước 1: Khởi chạy Backend (AI Server)
@@ -22,8 +22,10 @@ python processor.py
 Bước 2: Khởi chạy Frontend (Giao diện Web)
 Mở thêm một cửa sổ Terminal thứ hai và chạy lệnh:
 streamlit run app.py
-Trình duyệt sẽ tự động mở trang web giao diện tại địa chỉ http://127.0.0.1:5000/.
-📸 Hướng dẫn sử dụng
+Trình duyệt sẽ tự động mở trang web giao diện tại địa chỉ http://127.0.0.1:5000
+
+**📸 Hướng dẫn sử dụng**
+
 Truy cập giao diện Web qua trình duyệt.
 
 Nhấn vào nút Browse files để tải lên ảnh món ăn (hỗ trợ JPG, PNG, JPEG).
