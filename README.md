@@ -17,12 +17,12 @@ Bước 1: Khởi chạy Backend (AI Server)
 Mở một cửa sổ Terminal mới và chạy lệnh:
 python processor.py
 
-Đợi cho đến khi hệ thống báo >>> Đã nạp trọng số thành công! và * Running on http://127.0.0.1:5000.
+Đợi cho đến khi hệ thống báo >>> Đã nạp trọng số thành công! và * Running on http://127.0.0.1:5001.
 
 Bước 2: Khởi chạy Frontend (Giao diện Web)
 Mở thêm một cửa sổ Terminal thứ hai và chạy lệnh:
 streamlit run app.py
-Trình duyệt sẽ tự động mở trang web giao diện tại địa chỉ http://localhost:8501.
+Trình duyệt sẽ tự động mở trang web giao diện tại địa chỉ http://127.0.0.1:5000/.
 📸 Hướng dẫn sử dụng
 Truy cập giao diện Web qua trình duyệt.
 
